@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char *argv[]) {
+	int a,i;
+do{	
+
+	printf("\ningrese un numero del 1 al 5 no introduzca letras porque se cuelga \n\n");
+	scanf("%d",&a);
+
+if(a<6){
+	
+	for(i=0;i<a;i++){
+		printf("\nhola mundo\n");
+	}//for
+	
+	}else{
+		printf("\nintente de nuevo\n");
+	}//else
+	
+}while(a<6||a>5);	
+	
+return 0;
+}
